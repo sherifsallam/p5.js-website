@@ -3,18 +3,17 @@ title: home
 slug: /
 ---
 <div id="home-page">
-  {{> sidebar}}
 
   <div class="column-span">
     <main id="content" class="home">
+      <h1>{{#i18n "p1xh1"}}{{/i18n}}</h1>
       <form id="search" method="get" action="https://www.google.com/search">
         <input type="hidden" name="as_sitesearch" value="p5js.org">
         <input id="search_button" type="submit" aria-label="Search" class='sr-only'>
-        <input tabindex="2" id='search_field' type="text" size="20" placeholder="Search p5js.org" name="q">
-        <label class="sr-only" for="search_field">Search p5js.org</label>
+        <input tabindex="2" id='search_field' type="text" size="20" placeholder="p5js.org ابحث" name="q">
+        <label class="sr-only" for="search_field">p5js.org ابحث</label>
       </form>
 
-      <h1>{{#i18n "p1xh1"}}{{/i18n}}</h1>
       <p style="margin-top:1em">{{#i18n "p1x1"}}{{/i18n}}</p>
       <p>{{#i18n "p1x2"}}{{/i18n}}</p>
       {{!-- <p><a href="https://discord.gg/SHQ8dH25r9">Join the p5.js Discord!</a></p> --}}
@@ -49,6 +48,8 @@ slug: /
     </main>
     {{> footer}}
   </div> <!-- end column-span -->
+
+  {{> sidebar}}
 
   {{!-- <div id="credits" tabindex='-1'>
     {{#i18n "sketch_info"}}{{/i18n}}<br>

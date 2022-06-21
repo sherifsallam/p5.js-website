@@ -24,8 +24,8 @@ textarea {
 }
 
 body {
-  font-size: 1em;
-  line-height: 1.4;
+  font-size: 1.1em;
+  line-height: 1.8;
 }
 
 /*
@@ -791,9 +791,7 @@ form {
   color: #666;
 }
 
-#search {
-  float: right;
-}
+
 
 #search .twitter-typeahead .tt-dropdown-menu {
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -1897,6 +1895,8 @@ h1 {
   font-size: 2.25em;
   /* 2.369em  */
   margin: 0;
+  float: right;
+  padding-right: 45px;
 }
 
 h2 {
@@ -2016,7 +2016,7 @@ h2 {
 .column-span {
   margin: 0 0 0 1em;
   padding: 0;
-  float: left;
+  float: right;
   max-width: 100%;
 }
 
@@ -2094,7 +2094,7 @@ p + img {
 #lockup {
   position: absolute;
   top: -5.75em;
-  left: 1.25em;
+  left: 32.25em;
   height: 0px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -2338,7 +2338,7 @@ footer {
   #i18n-btn {
     position: absolute;
     top: 4.0em; /* temp promo, 2.5em */
-    right: 1em;
+    
   }
   #i18n-btn a {
     font-family: 'Montserrat', sans-serif;
